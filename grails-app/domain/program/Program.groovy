@@ -1,12 +1,15 @@
 package program
 
-import lesson.Pathway
+import pathway.Pathway
+import pathway.PathwayInProgram
+import unit.UnitPrecedence
 
 class Program {
 
-    static hasMany = [pathways:Pathway]
+    static hasMany = [pathways:PathwayInProgram, unitPrecedences: UnitPrecedence]
 
     String name
+
 
     static constraints = {
     }

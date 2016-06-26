@@ -1,9 +1,9 @@
-package lesson
+package pathway
 
 /**
  * Created by pablo on 25/06/16.
  */
-enum UnitStatus {
+enum PathwayStatus {
 
     BLOCKED, READY, ACTIVE, DONE
 

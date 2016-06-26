@@ -1,4 +1,4 @@
-package lesson
+package pathway
 
 import user.User
 

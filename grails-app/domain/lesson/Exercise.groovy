@@ -1,9 +1,6 @@
 package lesson
 
-class Exercise {
-
-    static belongsTo = LessonCollection
-    static hasMany = [environments : LessonCollection]
+class Exercise  extends UnitPart{
 
     boolean mandatory
 

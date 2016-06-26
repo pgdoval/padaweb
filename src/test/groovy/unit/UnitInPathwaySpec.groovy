@@ -1,14 +1,13 @@
-package lesson
+package unit
 
 import grails.test.mixin.TestFor
-import pathway.UserPathway
 import spock.lang.Specification
 
 /**
  * See the API for {@link grails.test.mixin.domain.DomainClassUnitTestMixin} for usage instructions
  */
-@TestFor(UserPathway)
-class UserPathwaySpec extends Specification {
+@TestFor(UnitInPathway)
+class UnitInPathwaySpec extends Specification {
 
     def setup() {
     }

@@ -1,6 +1,8 @@
 package lesson
 
-class Lesson {
+import unit.Unit
+
+class Lesson extends UnitPart{
 
     String name
 

@@ -1,6 +1,7 @@
 package lesson
 
 import grails.test.mixin.TestFor
+import pathway.Pathway
 import spock.lang.Specification
 
 /**
